@@ -18,7 +18,7 @@
                                 <StackPanel Orientation="Horizontal">
                                     <Image Width="20" Source="images/folder.png">
                                     </Image>
-                                    <TextBlock VerticalAlignment="Center" Text="folder"></TextBlock>
+                                    <TextBlock VerticalAlignment="Center" Text="{Binding}"></TextBlock> <!--default the binding to whatever the data getting it self-->
                                 </StackPanel>
 
                             </DataTemplate>
